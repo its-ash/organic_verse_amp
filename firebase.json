@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "dist",
+    "site": "organicverse",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   },
   "firestore": {

@@ -14,4 +14,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_ORGANIC_VERSE }}'
           channelId: live
-          projectId: organicverse
+          projectId: the-organic-verse
