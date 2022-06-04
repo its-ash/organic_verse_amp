@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build --analyze",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/amp": "^0.5.4",
     "@nuxtjs/firebase": "^8.2.2",
+    "bootstrap": "^4.5.3",
     "core-js": "^3.19.3",
     "firebase": "^9.8.2",
     "nuxt": "^2.15.8",
@@ -20,5 +20,11 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.6.2",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.52.2",
+    "sass-loader": "10"
   }
 }
