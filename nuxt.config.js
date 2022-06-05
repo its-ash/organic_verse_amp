@@ -26,7 +26,7 @@ export default {
   plugins: [],
   components: true,
   buildModules: [],
-  modules: ['@nuxtjs/firebase'],
+  modules: ['@nuxtjs/firebase', 'nuxt-svg-loader'],
   amp: {
     // Options
   },

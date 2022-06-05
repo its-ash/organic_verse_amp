@@ -1,14 +1,12 @@
 <template>
   <header>
     <!-- Main Menu Start -->
-
     <div class="site-navigation main_menu " id="mainmenu-area">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
+          <nuxt-link class="navbar-brand" :to="{name: 'index'}">
             <img src="~/assets/images/logo-dark.png" alt="Orgenik" class="img-fluid">
-          </a>
-
+          </nuxt-link>
           <!-- Toggler -->
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
@@ -19,52 +17,27 @@
           <!-- Collapse -->
           <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbar3" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item">
+                <nuxt-link :to="{name: 'index'}" class="nav-link js-scroll-trigger">
                   Home
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbar3">
-                  <a class="dropdown-item " href="index.html">
-                    Home-1
-                  </a>
-                  <a class="dropdown-item " href="index-2.html">
-                    Home-2
-                  </a>
-                </div>
+                </nuxt-link>
               </li>
-              <li class="nav-item ">
-                <a href="about.html" class="nav-link js-scroll-trigger">
+              <li class="nav-item">
+                <nuxt-link :to="{name: 'about'}" class="nav-link js-scroll-trigger">
                   About
-                </a>
+                </nuxt-link>
               </li>
-
-              <li class="nav-item ">
-                <a href="service.html" class="nav-link js-scroll-trigger">
+              <li class="nav-item">
+                <nuxt-link :to="{name: 'service'}" class="nav-link js-scroll-trigger">
                   Services
-                </a>
+                </nuxt-link>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbar3" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                  Blog
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbar3">
-                  <a class="dropdown-item " href="blog.html">
-                    Blog
-                  </a>
-                  <a class="dropdown-item " href="blog-single.html">
-                    Blog Single
-                  </a>
-                </div>
-              </li>
-              <li class="nav-item ">
-                <a href="contact.html" class="nav-link">
+              <li class="nav-item">
+                <nuxt-link :to="{name: 'contact'}" class="nav-link">
                   Contact
-                </a>
+                </nuxt-link>
               </li>
             </ul>
-
             <div class="header-contact d-flex align-items-center">
               <div class="header-contact-icon">
                 <i class="ti-headphone-alt"></i>
@@ -78,6 +51,7 @@
         </nav>
       </div> <!-- / .container -->
     </div>
+
   </header>
 </template>
 
