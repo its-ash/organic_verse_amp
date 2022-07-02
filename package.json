@@ -13,6 +13,7 @@
     "bootstrap": "^4.5.3",
     "core-js": "^3.19.3",
     "firebase": "^9.8.2",
+    "flat-color-icons": "^1.1.0",
     "nuxt": "^2.15.8",
     "nuxt-svg-loader": "^1.2.0",
     "vue": "^2.6.14",

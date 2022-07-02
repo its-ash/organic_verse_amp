@@ -16,17 +16,17 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-sm-6 col-md-6">
-            <div class="footer-widget footer-contact mb-5 mb-lg-0">
-              <h5 class="widget-title">Services</h5>
-              <ul class="list-unstyled">
-                <li><a href="#">Our Gallery</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">Our Farmers</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-          </div>
+<!--          <div class="col-lg-2 col-sm-6 col-md-6">-->
+<!--            <div class="footer-widget footer-contact mb-5 mb-lg-0">-->
+<!--              <h5 class="widget-title">Services</h5>-->
+<!--              <ul class="list-unstyled">-->
+<!--                <li><a href="#">Our Gallery</a></li>-->
+<!--                <li><a href="#">Solutions</a></li>-->
+<!--                <li><a href="#">Our Farmers</a></li>-->
+<!--                <li><a href="#">Privacy Policy</a></li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--          </div>-->
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="footer-widget footer-contact mb-5 mb-lg-0">
               <h5 class="widget-title">Contact</h5>

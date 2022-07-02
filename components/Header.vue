@@ -3,17 +3,15 @@
     <!-- Main Menu Start -->
     <div class="site-navigation main_menu " id="mainmenu-area">
       <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg rounded py-0">
           <nuxt-link class="navbar-brand" :to="{name: 'index'}">
-            <img src="~/assets/images/logo-dark.png" alt="Orgenik" class="img-fluid">
+            <img src="/logo.png" alt="Organic Verse" class="img-fluid" style="height: 90px">
           </nuxt-link>
           <!-- Toggler -->
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
                   aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span>
           </button>
-
           <!-- Collapse -->
           <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav mr-auto">
@@ -38,15 +36,15 @@
                 </nuxt-link>
               </li>
             </ul>
-            <div class="header-contact d-flex align-items-center">
-              <div class="header-contact-icon">
-                <i class="ti-headphone-alt"></i>
+            <a href="tel:919414022507" class="header-contact d-flex align-items-center">
+              <div class="header-contact-icon bg-transparent mb-4">
+                <lottie-player src="/lottie/call.json" loop autoplay></lottie-player>
               </div>
               <div class="contact-text">
                 <span>Contact for support </span>
-                <h4>34 345 23546</h4>
+                <h4>9414022507</h4>
               </div>
-            </div>
+            </a>
           </div> <!-- / .navbar-collapse -->
         </nav>
       </div> <!-- / .container -->
@@ -56,11 +54,14 @@
 </template>
 
 <script>
+import Phone from "flat-color-icons/svg/phone.svg"
 export default {
-  name: "Header"
+  name: "Header",
+  components:{
+    Phone
+  }
 };
 </script>
 
 <style scoped>
-
 </style>

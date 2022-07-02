@@ -1,5 +1,5 @@
 <template>
-  <section class="contact pb-5">
+  <section class="contact">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-8 ">
+        <div class="col-lg-8">
           <form class="contact__form form-row" @submit.prevent="submitForm" id="contactForm">
             <div class="row">
               <div class="col-12">
@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import SendIcon from "@/assets/svg/send.svg";
+import SendIcon from "flat-color-icons/svg/search.svg";
 
 export default {
   name: "Query",

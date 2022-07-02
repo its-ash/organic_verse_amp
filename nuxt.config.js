@@ -20,7 +20,11 @@ export default {
         content: 'telephone=no'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/fontawesome.css' }
+    ],
+    script: [{ src: '/bootstrap.bundle.min.js' }, { src: '/lottie.js' }]
   },
   css: [],
   plugins: [],
