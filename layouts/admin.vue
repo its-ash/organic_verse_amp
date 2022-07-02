@@ -1,5 +1,7 @@
 <template>
-<nuxt></nuxt>
+  <div>
+    <nuxt></nuxt>
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "assets/admin/scss/soft-ui-dashboard.scss";
+//@import "assets/admin/scss/soft-ui-dashboard.scss";
 </style>

@@ -410,12 +410,10 @@
 </template>
 
 <script>
-import FarmerJson from "@/assets/lottie/farmers.json";
 
 export default {
   name: "index",
   data: () => ({
-    FarmerJson
   }),
   computed: {},
   mounted() {
