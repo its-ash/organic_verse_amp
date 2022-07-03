@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="row pt-6 mt-5">
-      <div class="col-md-6 col-12">
-        <lottie-player src="/lottie/location.json" loop autoplay></lottie-player>
+      <div class="col-md-6 col-12 pt-5">
+        <lottie-player class="p-5" src="/lottie/location.json" loop autoplay></lottie-player>
       </div>
       <div class="col-md-4 col-12 pt-md-5 mt-md-5 px-5">
         <h1 class="pt-md-5 mt-md-5">Currently, we are only at <br> <strong>AJMER</strong> </h1>

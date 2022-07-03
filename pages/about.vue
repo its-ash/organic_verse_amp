@@ -23,7 +23,7 @@
             <div >
               <lottie-player src="/lottie/order.json" loop autoplay></lottie-player>
               <h4>2-Order</h4>
-              <p>Your order will be harvested and delivered to you</p>
+              <p>Select your veggi box and order.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">

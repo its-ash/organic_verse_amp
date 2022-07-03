@@ -7,12 +7,12 @@
             <div class="banner-content">
               <span class="subheading">Certified Organic Farming</span>
               <h1>Fresh Organic foods Live Healthily</h1>
-              <p>Suitable for Organic Store, Organic Farming, Farm, Organic Food, Organic Food Shop, Dairy Farm, Bakery
-                Shop</p>
+              <p>We believe that amazing veg has the power to change lives and the world around us.</p>
               <div class="banner-btn">
-                <a href="#" class="btn btn-main">See our farm<i class="ti-angle-right"></i></a>
-                <a href="#" class="btn btn-border">Our Services<i class="ti-angle-right"></i></a>
+                <a href="#" class="btn btn-border p-2 px-3">Android<i class="fab fa-google-play"></i></a>
+                <a href="#" class="btn btn-border p-2 px-3">IOS<i class="fab fa-app-store-ios"></i></a>
               </div>
+              <h5 class="m-2">Download App from store</h5>
             </div>
           </div>
           <div class="col-lg-6 col-md-12 row">
@@ -26,23 +26,22 @@
     <section class="about">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-5 col-md-12">
               <lottie-player src="/lottie/peas.json" loop autoplay></lottie-player>
           </div>
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-7 col-md-12">
             <div class="section-heading text-left about-info">
               <h4 class="subheading">About</h4>
               <span class="subtitle">our story</span>
               <h2>Healthy,tasty & <span>Fresh Organic Food</span></h2>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, nesciunt reiciendis? Eligendi,
-                commodi omnis! Rem nulla quas adipisicing elit Sed ut perspiciatis</p>
-              <ul>
-                <li><i class="ti-check"></i> Natuaral Foods</li>
-                <li><i class="ti-check"></i> Improve Health</li>
-                <li><i class="ti-check"></i> Add strength and energy</li>
-                <li><i class="ti-check"></i> Reduces weight</li>
+              <p>Proper farmers with mud on our boots. Unashamedly nerdy about veg, we always choose the tastiest varieties – and never spray your food with artificial nasties. Caring for the soil and wildlife on our land, as well as the other growers and makers in our community, is at the heart of everything we do.</p>
+              <ul class="row">
+                <li class="col-12"><i class="fa fa-check-circle"></i> Look after your soil, and it will look after the crop.</li>
+                <li class="col-12"><i class="fa fa-check-circle"></i> Choose the right variety – all carrots were not created equal!</li>
+                <li class="col-12"><i class="fa fa-check-circle"></i> Grow it in the right conditions – slowly, naturally, letting the flavour develop.</li>
+                <li class="col-12"><i class="fa fa-check-circle"></i> Eat it fresh from the farm.</li>
               </ul>
-              <a href="#" class="btn btn-main">Our Services<i class="ti-angle-right"></i></a>
+<!--              <a href="#" class="btn btn-main">Our Services<i class="ti-angle-right"></i></a>-->
             </div>
           </div>
         </div>
@@ -120,32 +119,32 @@
               <div class="section-heading text-left mb-3">
                 <h4 class="subheading">About</h4>
                 <span class="subtitle">our story</span>
-                <h2>We are best organic <span>food provider</span></h2>
+                <h2>Everything we grow, make and sell is 100% organic.</h2>
               </div>
 
               <div class="process-wrap">
                 <div class="process-item">
                   <div class="process-icon">
-                    <i class="ti-check"></i>
+                    <i class=" fa fa-check-circle"></i>
                   </div>
                   <div class="process-text">
                     <h5>100% Organic Products</h5>
-                    <p>Sorem ipsum dolor sit amet consecta dipisicing elit sed do eiusmod tempor incidide.</p>
+                    <p>We believe organic is the best show in town – for the environment, for our farmland, for animals, and for us. </p>
                   </div>
                 </div>
 
                 <div class="process-item">
                   <div class="process-icon style-2">
-                    <i class="ti-check"></i>
+                    <i class=" fa fa-check-circle"></i>
                   </div>
                   <div class="process-text">
-                    <h5>Homegrown Goodness</h5>
-                    <p>Sorem ipsum dolor sit amet consecta dipisicing elit sed do eiusmod tempor incidide.</p>
+                    <h5>Fair to farmers, fair to customers.</h5>
+                    <p>We work with our small-scale growers and makers for the long term, agreeing good prices well in advance and always sticking to our word. And there are no discounts for new customers; instead, a fair deal for all.</p>
                   </div>
                 </div>
               </div>
 
-              <a href="#" class="btn btn-main2">Our Gallery<i class="ti-angle-right"></i></a>
+<!--              <a href="#" class="btn btn-main2">Our Gallery<i class="ti-angle-right"></i></a>-->
             </div>
           </div>
           <div class="col-lg-5 col-md-12">
@@ -197,7 +196,7 @@
             <div class="section-heading">
               <span class="subtitle">Welcome to store</span>
               <h2>Want To Get Out Natural Organic Food Visit Our store?</h2>
-              <a href="#" class="btn btn-main">Contact Us<i class="ti-angle-right"></i></a>
+              <nuxt-link :to="{name: 'contact'}" class="btn btn-main">Contact Us<i class="fa fa-arrow-right"></i></nuxt-link>
             </div>
           </div>
         </div>

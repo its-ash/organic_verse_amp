@@ -4,7 +4,7 @@ export default {
   ssr: false,
   target: 'static',
   head: {
-    title: 'organic_verse_amp',
+    title: 'Organic Verse',
     htmlAttrs: {
       lang: 'en'
     },
@@ -21,7 +21,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
       { rel: 'stylesheet', href: '/fontawesome.css' }
     ],
     script: [{ src: '/bootstrap.bundle.min.js' }, { src: '/lottie.js' }]

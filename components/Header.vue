@@ -1,9 +1,9 @@
 <template>
   <header>
     <!-- Main Menu Start -->
-    <div class="site-navigation main_menu " id="mainmenu-area">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg rounded py-0">
+    <div class="site-navigation main_menu" id="mainmenu-area">
+      <div class="container ">
+        <nav class="navbar navbar-expand-lg rounded py-0 shadow-sm" style="background: #EAF6F6">
           <nuxt-link class="navbar-brand" :to="{name: 'index'}">
             <img src="/logo.png" alt="Organic Verse" class="img-fluid" style="height: 90px">
           </nuxt-link>
