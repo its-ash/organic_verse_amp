@@ -9,7 +9,7 @@
           </nuxt-link>
           <!-- Toggler -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-                  aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                  id="toggle-btn" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span>
           </button>
           <!-- Collapse -->
@@ -54,11 +54,18 @@
 </template>
 
 <script>
-import Phone from "flat-color-icons/svg/phone.svg"
+import Phone from "flat-color-icons/svg/phone.svg";
+
 export default {
   name: "Header",
-  components:{
+  components: {
     Phone
+  },
+  watch: {
+    $route(to, from) {
+      const el = document.getElementById("toggle-btn");
+      el.getAttribute("aria-expanded") === "true" ? el.click() : null;
+    }
   }
 };
 </script>
